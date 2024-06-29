@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenging Chats</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add this line for favicon -->
+</head>
+<body>
+    <h1>Challenging Chats</h1>
+    <div class="main-container">
+        <div class="controls">
+            <button id="select-patient">Select Patient</button>
+            <textarea id="user-input" placeholder="Enter your information here..." rows="4" cols="50"></textarea>
+            <button id="start-audio-conversation">Start Audio Conversation</button>
+            <button id="end-session">End Session</button>
+            <div id="feedback"></div> <!-- Ensure this is placed here for feedback -->
+        </div>
+        <div class="conversation">
+            <h2>Conversation Script</h2>
+            <div id="conversation-script"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

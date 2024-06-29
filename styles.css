@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4CAF50;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #4CAF50;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.controls, .conversation {
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px;
+    padding: 20px;
+    flex: 1 1 300px;
+    max-width: 500px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #4CAF50;
+    text-align: left;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+    height: 300px; /* Increase the height */
+    overflow-y: auto; /* Add vertical scroll if content overflows */
+}
+
+.conversation {
+    max-width: 600px;
+}
+
+#conversation-script {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height: 400px;
+    overflow-y: auto;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.user-text {
+    color: blue;
+    font-weight: bold;
+}
+
+.assistant-text {
+    color: green;
+    font-weight: bold;
+}
